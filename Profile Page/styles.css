@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  min-height: 100vh;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+.container {
+  min-height: 100vh;
+}
+/* Bg Image and Icons */
+.head {
+  padding-top: 140px;
+  padding-bottom: 135px;
+  background-image: url("https://toothsicms.s3.ap-south-1.amazonaws.com/testimony5_235550a629.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.head-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(-140px);
+}
+
+/* Content Section */
+.main-content {
+  border-bottom: 1px solid #efefef;
+}
+.content {
+  padding: 20px 30px;
+  padding-bottom: 15px;
+}
+.details {
+  padding: 10px 30px;
+}
+.profile-name,
+.email {
+  margin: 0;
+}
+.main-content {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.email {
+  display: inline-block;
+  padding: 10px;
+  background: #efefef;
+  color: #007aff;
+  border-radius: 50px;
+  margin-left: -5px;
+  margin-top: 2px;
+}
+
+.experience,
+.address {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.btn-proceed {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+}
+.rating-nav {
+  margin: 0 10px 0 0;
+  padding: 3px;
+  background: white;
+  border-radius: 230px;
+}
+.rating-para {
+  margin: 0;
+  font-size: 12px;
+}
+.back-nav .material-icons {
+  color: white;
+  font-size: 35px;
+}
+.rating-nav .material-icons {
+  font-size: 12px;
+  margin-right: 2px;
+}
+
+/* Typography */
+.profile-name {
+  font-size: 30px;
+}
+.email {
+  font-size: 14px;
+}
+.projects {
+  font-size: 11px;
+}
+.profile-desc {
+  font-size: 13px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+.experience,
+.address {
+  font-size: 10px;
+}
+.address {
+  color: #007aff;
+}
+.address .material-icons {
+  font-size: 11px;
+}
+
+@media (min-width: 380px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 20%;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  .main-content {
+    margin-top: 50px;
+  }
+  .content,
+  .details {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+}
